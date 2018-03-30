@@ -13,7 +13,12 @@
     "php": "^7.0"
   },
   "autoload": {
-    "psr-4": { "Spinner\\": "" }
+    "psr-4": {
+      "Spinner\\": ""
+    },
+    "files": [
+      "constants.php"
+    ]
   },
   "minimum-stability": "dev"
 }
