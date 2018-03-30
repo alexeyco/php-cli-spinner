@@ -13,7 +13,6 @@ disabled:
   - unalign_equals
 
 finder:
-  not-path:
-    - "Tests/"
-  name:
-    - "*.php"
+  not-path: ["Tests/"]
+  not-name: ["constants.php"]
+  name: ["*.php"]

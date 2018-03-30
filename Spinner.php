@@ -11,10 +11,6 @@
 
 namespace Spinner;
 
-/**
- * Class Spinner
- * @package Spinner
- */
 class Spinner
 {
     /**
@@ -39,8 +35,8 @@ class Spinner
      */
     public function __construct(array $frames)
     {
-        $this->frames = $frames;
-        $this->length = sizeof($this->frames);
+        $this->frames  = $frames;
+        $this->length  = count($this->frames);
         $this->current = 0;
     }
 
@@ -60,7 +56,7 @@ class Spinner
      */
     private function next(): int
     {
-        $prev = $this->current;
+        $prev          = $this->current;
         $this->current = $prev + 1;
 
         if ($this->current >= $this->length - 1) {
