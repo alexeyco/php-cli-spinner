@@ -36,7 +36,7 @@ class Spinner
     public function __construct(array $frames)
     {
         $this->frames  = $frames;
-        $this->length  = sizeof($this->frames);
+        $this->length  = count($this->frames);
         $this->current = 0;
     }
 
