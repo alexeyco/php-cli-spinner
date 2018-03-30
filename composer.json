@@ -1,0 +1,19 @@
+{
+  "name": "alexeyco/spinner",
+  "description": "Awesome command line spinners set",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexey Popov",
+      "email": "alexey.popov@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0"
+  },
+  "autoload": {
+    "psr-4": { "Spinner\\": "" }
+  },
+  "minimum-stability": "dev"
+}
